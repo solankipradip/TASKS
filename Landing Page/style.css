@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(images/nav.jpg);
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+
+}
+
+/* .container {
+    background-image: url(images/nav.jpg);
+    background-size: cover;
+    height: 100vh;
+
+
+} */
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(76, 5, 5); */
+    background-image: url(images/nav.jpg);
+    position: fixed;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+}
+
+.navbar ul {
+    list-style-type: none;
+    float: right;
+}
+
+.navbar p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-family: sans-serif;
+
+    margin: 5px 35px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 10px 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+section .wrapper img {
+
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+}
+
+section .wrapper {
+    padding-top: -1px;
+    border: 0px;
+
+}
+
+.content {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    /* background-color: coral; */
+}
+
+/* CONTENT BOX CSS */
+
+.box1 {
+    height: 330px;
+    width: 200px;
+    position: absolute;
+    left: 10%;
+    top: 70px;
+    z-index: -1;
+    box-shadow: 14px -10px 15px black;
+    outline: 1px solid white;
+
+}
+
+.box2 {
+    height: 330px;
+    width: 200px;
+    position: absolute;
+    left: 33%;
+    top: 70px;
+    z-index: -1;
+    box-shadow: 14px -10px 15px black;
+    outline: 1px solid white;
+
+}
+
+.box3 {
+    height: 330px;
+    width: 200px;
+    position: absolute;
+    left: 55%;
+    top: 70px;
+    z-index: -1;
+    box-shadow: 14px -10px 15px black;
+    outline: 1px solid white;
+
+}
+
+.box4 {
+    height: 330px;
+    width: 200px;
+    position: absolute;
+    right: 10%;
+    top: 70px;
+    z-index: -1;
+    box-shadow: 14px -10px 15px black;
+    outline: 1px solid white;
+
+}
+
+.box5 {
+    height: 330px;
+    width: 200px;
+    position: absolute;
+    left: 10%;
+    top: 540px;
+    z-index: -1;
+    box-shadow: 14px -10px 15px black;
+    outline: 1px solid white;
+}
+
+.box6 {
+    height: 330px;
+    width: 200px;
+    position: absolute;
+    left: 33%;
+    top: 540px;
+    z-index: -1;
+    box-shadow: 14px -10px 15px black;
+    outline: 1px solid white;
+}
+
+.box7 {
+    height: 330px;
+    width: 200px;
+    position: absolute;
+    left: 55%;
+    top: 540px;
+    z-index: -1;
+    box-shadow: 14px -10px 15px black;
+    outline: 1px solid white;
+}
+
+.box8 {
+    height: 330px;
+    width: 200px;
+    position: absolute;
+    right: 10%;
+    top: 540px;
+    z-index: -1;
+    box-shadow: 14px -10px 15px black;
+    outline: 1px solid white;
+}
+
+/* CONTENT HEADER CSS */
+
+.box1 .mercury {
+    height: 30px;
+    width: 200px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+}
+
+.box2 .venus {
+    width: 200px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+}
+
+.box3 .earth {
+    width: 200px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+}
+
+.box4 .mars {
+    width: 200px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+}
+
+.box5 .jupiter {
+    width: 200px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+}
+
+.box6 .sarturn {
+    width: 200px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+}
+
+.box7 .uranus {
+    width: 200px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+}
+
+.box8 .neptune {
+    width: 200px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* border: 1px solid black; */
+}
+
+/* BOX IMG CSS */
+
+.content .box1 .first {
+    height: 300px;
+    width: 200px;
+    background-image: url(images/Mercury.jpg);
+    background-size: 100% 300px;
+    left: 4%;
+    top: 50px;
+}
+
+.content .box2 .two {
+    height: 300px;
+    width: 200px;
+    background-image: url(images/venus.jpg);
+    background-size: 100% 300px;
+    left: 4%;
+    top: 50px;
+}
+
+.content .box3 .three {
+    height: 300px;
+    width: 200px;
+    background-image: url(images/earth.jpg);
+    background-size: 100% 300px;
+    left: 4%;
+    top: 50px;
+}
+
+.content .box4 .four {
+    height: 300px;
+    width: 200px;
+    background-image: url(images/mars.jpg);
+    background-size: 100% 300px;
+    left: 4%;
+    top: 50px;
+}
+
+.content .box5 .five {
+    height: 300px;
+    width: 200px;
+    background-image: url(images/jupiter.jpg);
+    background-size: 100% 300px;
+    left: 4%;
+    top: 50px;
+}
+
+.content .box6 .six {
+    height: 300px;
+    width: 200px;
+    background-image: url(images/sarturn.jpg);
+    background-size: 100% 300px;
+    left: 4%;
+    top: 50px;
+}
+
+.content .box7 .seven {
+    height: 300px;
+    width: 200px;
+    background-image: url(images/uranus.jpg);
+    background-size: 100% 300px;
+    left: 4%;
+    top: 50px;
+}
+
+.content .box8 .eight {
+    height: 300px;
+    width: 200px;
+    background-image: url(images/neptune.jpg);
+    background-size: 100% 300px;
+    left: 4%;
+    top: 50px;
+}
+
+/* BOX FOOTER CSS */
+
+.boxfooter1 {
+    background-color: darkred;
+    color: #fff;
+    border: 1px solid white;
+    border-color: white;
+    position: relative;
+    left: 11%;
+    top: 410px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-content: center;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    /* z-index: -1; */
+}
+.boxfooter2 {
+    background-color: darkred;
+    color: #fff;
+    border: 1px solid white;
+    position: relative;
+    left: 23.5%;
+    top: 410px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-content: center;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    /* z-index: -1; */
+}
+.boxfooter3 {
+    background-color: darkred;
+    color: #fff;
+    border: 1px solid white;
+    position: relative;
+    left: 34.5%;
+    top: 410px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-content: center;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    /* z-index: -1; */
+}
+.boxfooter4 {
+    background-color: darkred;
+    color: #fff;
+    border: 1px solid white;
+    position: relative;
+    left: 46.5%;
+    top: 410px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-content: center;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    /* z-index: -1; */
+}
+.boxfooter5 {
+    background-color: darkred;
+    color: #fff;
+    border: 1px solid white;
+    position: relative;
+    left: -32%;
+    top: 880px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-content: center;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    /* z-index: -1; */
+}
+.boxfooter6 {
+    background-color: darkred;
+    color: #fff;
+    border: 1px solid white;
+    position: relative;
+    left: -19.5%;
+    top: 880px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-content: center;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    /* z-index: -1; */
+}
+.boxfooter7 {
+    background-color: darkred;
+    color: #fff;
+    border: 1px solid white;
+    position: relative;
+    left: -8.5%;
+    top: 880px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-content: center;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    /* z-index: -1; */
+}
+.boxfooter8 {
+    background-color: darkred;
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    left: 3.5%;
+    top: 880px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    align-content: center;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    /* z-index: -1; */
+}
+
+
+.boxfooter1:hover {
+    background: #fff;
+    color: darkred;
+   outline: 2px solid black;
+    
+} 
+.boxfooter2:hover {
+    background: #fff;
+    color: darkred;
+    
+} 
+.boxfooter3:hover {
+    background: #fff;
+    color: darkred;
+    
+} 
+.boxfooter4:hover {
+    background: #fff;
+    color: darkred;
+    
+} 
+.boxfooter5:hover {
+    background: #fff;
+    color: darkred;
+    
+} 
+.boxfooter6:hover {
+    background: #fff;
+    color: darkred;
+    
+} 
+.boxfooter7:hover {
+    background: #fff;
+    color: darkred;
+    
+} 
+.boxfooter8:hover {
+    background: #fff;
+    color: darkred;
+    
+} 
+footer{
+    width: 100%;
+    height: 50px;
+    background-image: url(images/nav.jpg);
+    color: gray;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-top:  2px solid orange;
+    border-bottom: 2px solid orange;
+    letter-spacing: 5px;
+}
