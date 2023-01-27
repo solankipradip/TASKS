@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-down</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body{
+            background: url(background.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+       nav{
+        background: rgb(148, 53, 53);
+        height: 75px;
+        margin-top: 10px;
+       }
+       .menu ul{
+        list-style: none;
+        float: left;
+        margin: 10px 0 0 100px;
+        /* margin: 10px 0 0 100px; */
+        }
+        .menu p{
+            font-size: 24px;
+            color: white;
+            padding: 10px 30px;
+            margin-top: 10px;
+            border: 1px solid #fff;
+            display: inline-block;
+            float:left;
+            letter-spacing: 5px;
+            font-weight: bold;
+        }
+        .menu ul li{
+            background: rgb(231, 151, 151);
+            width: 150px;
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid #000;
+            text-align: center;
+            font-size: 20px;
+            float: left;
+            position: relative;
+            
+            
+        }
+        .menu ul li a{
+            color: #000;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 18px;
+           
+        }
+        .menu ul li:hover{
+            background: rgb(234, 82, 88);
+        }
+        .menu ul ul{
+            margin: 0;
+        }
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover>ul{
+            display: block;
+        }
+        .menu ul ul ul{
+            margin-left: 200px;
+            top: 0;
+            position: absolute;
+        }
+        .menu ul ul li{
+            width: 200px;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+        <p>DROPDOWN</p>
+        
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Course</a>
+                <ul>
+                    <li><a href="#">software devalopment</a>
+                        <ul>
+                            <li><a href="#">Python Certification Course</a></li>
+                            <li><a href="#">Java Course</a></li>
+                            <li><a href="#">Front End Developer Course</a>
+                                <ul>
+                                    <li><a href="#">Course 1</a></li>
+                                    <li><a href="#">Course 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Full Stack Development Course</a></li>
+                            <li><a href="#">PHP Course</a></li>
+                            <li><a href="#">Web Development</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">mobile development</a></li>
+                    <li><a href="#">designing</a>
+                        <ul>
+                            <li><a href="#">Web Designing Course</a></li>
+                            <li><a href="#">Graphic Design Course</a></li>
+                            <li><a href="#">UI UX Design Course</a>
+                                <ul>
+                                    <li><a href="#">UX Course</a></li>
+                                    <li><a href="#">UI Course</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">CSS Training Course</a></li>
+                            <li><a href="#">HTML Training Course</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="#">data science</a>
+                        <ul>
+                            <li><a href="#">Machine Learning Course</a></li>
+                            <li><a href="#">Data Analytics Courses</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">online course</a></li>
+                </ul>
+            </li> 
+            <li><a href="#">Placement</a>
+                <ul>
+                    <li><a href="#">job fest</a></li>
+                    <li><a href="#">campus drive</a></li>
+                </ul> 
+            </li>
+            <li><a href="#">Webinar</a>
+                <ul>
+                    <li><a href="#">Data Science - Cotton Disease Prediction</a></li>
+                    <li><a href="#">graphics designing</a></li>
+                    <li><a href="#">full stack developer</a></li>
+                    <li><a href="#">syber security</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Location</a>
+                <ul>
+                    <li><a href="#">S.G Highway</a></li>
+                    <li><a href="#">C.G Road</a></li>
+                    <li><a href="#">Maninagar</a></li>
+                </ul>
+            </li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        </div>
+    </nav>
+</body>
+</html>
