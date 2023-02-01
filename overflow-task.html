@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverFlow Task</title>
+    <style>
+        .main{
+            height: 500px;
+            width: 500px;
+            background: #CE9FFC;
+            margin: 50px auto;
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            
+        }
+        .sub{
+            height: 200px;
+            width: 200px;
+            background:l rgb(206, 40, 40);
+            border-radius: 50%;
+            background: linear-gradient(#CE9FFC,#7367F0);
+        }
+        .one{
+            position: absolute;
+            left: -100px;
+            top: -100px;
+            box-shadow: -20px -20px 30px black inset;
+                }
+        .two{
+            position: absolute;
+            left: 400px;
+            top: -100px;
+            box-shadow: 20px -20px 30px black inset;
+
+        }
+        .three{
+            position: absolute;
+            left: -100px;
+            top: 400px;
+            box-shadow: -20px 20px 30px black inset;
+
+        }
+        .four{
+            position: absolute;
+            left: 400px;
+            top: 400px; 
+            box-shadow: 20px 20px 30px  black inset;
+        }
+        .five{
+            position: absolute;
+            left: 150px;
+            top: 150px; 
+            box-shadow: 20px 20px 30px  black inset,-20px -20px 30px  black inset;
+        }
+        
+       
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub one"></div>
+        <div class="sub two"></div>
+        <div class="sub three"></div>
+        <div class="sub four"></div>
+        <div class="sub five"></div>
+
+    </div>
+   
+</body>
+</html>

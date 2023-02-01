@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 700px;
+            background: rgb(143, 28, 250);
+            margin: 70px auto auto 50px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows:  100px 100px 100px;
+        }
+        .items{
+            text-align: center;
+            padding-top: 20px;
+            font-size: 24px;
+            color: white;
+            background: hotpink;
+            margin: 5px;
+        }
+        .items1{
+            grid-template-columns: 100%;
+            grid-column: span 3;
+        }
+        .items2{
+            
+            grid-row: span 2;
+        }
+        .items5{
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items items1">Header</div>
+        <div class="items items2">Menu</div>
+        <div class="items items3">Main</div>
+        <div class="items items4">Right</div>
+        <div class="items items5">Footer</div>
+
+    </div>
+</body>
+</html>
