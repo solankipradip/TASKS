@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background2.jpg);
+}
+
+form{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px auto 0px auto ;
+    background: rgba(0,0,0,0.3);
+    box-shadow: 0 5px 20px silver;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+}
+form header{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+    margin:50px auto 30px auto;
+}
+
+input[type=text],input[type=password],input[type=submit]{
+    width: 100%;
+    padding: 13px 0;
+}
+.field {
+    position: relative;
+    margin-top: 20px;
+    
+}
+input[type=text]:focus,input[type=password]:focus{
+    outline: none;
+}
+.field i{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.field input{
+    padding-left: 50px;
+    border-radius: 5px;
+}
+.login input{
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(39, 171, 171);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.pass-text a{
+    color:white;
+    text-decoration: none;
+    /* outline: 2px solid; */
+    /* margin-bottom: 5px; */
+    margin-top: 5px;
+}
+.pass-text{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5px;
+    
+}
+.pass-text a:hover{
+    text-decoration: underline;
+}
+
+p{
+    color: white;
+    margin: 10px 0px;
+}
+.main .social-icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social-icon a{
+    display: block;
+    height: 45px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid #fff; */
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 3px;
+}
+.social-icon span{
+    margin-left: 10px;
+}
+.social-icon a:first-child{
+    background: #4279cb;
+}
+.social-icon a:first-child:hover{
+    background: #1569e8;
+}
+.social-icon a:last-child{
+    background: #df3968;
+}
+.social-icon a:last-child:hover{
+    background: #df144e;
+}
+.sign-text{
+    margin: 25px;
+}
+.sign-text span{
+    color: white;
+}
+.sign-text a{
+    text-decoration: none;
+    color: rgb(42, 190, 190);
+}
+.sign-text a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+

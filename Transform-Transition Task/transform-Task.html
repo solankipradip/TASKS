@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+         body{
+            background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+         }
+        .first {
+            height: 300px;
+            width: 300px;
+            border: 5px solid maroon;
+            background: #fff;
+            position: relative;
+            left: 50px;
+            top: 100px;
+            border-radius: 50%;
+            float: left;
+
+        }
+
+        .first img {
+            position: absolute;
+            left: 75px;
+            top: 75px;
+            /* margin: auto; */
+            height: 150px;
+            width: 150px;
+            transform: scale(1);
+            transition:transform 0.60s;
+            border-radius: 50%;
+        }
+        .first:hover>img{
+            /* width: 200px; */
+            /* height: 200px; */
+            transform: scale(2);
+        }
+        .second{
+            height: 300px;
+            width: 300px;
+            /* background-size: 300px 300px; */
+            float: left;
+            position: relative;
+            margin: 100px auto auto 200px;
+            border: 5px solid #000;
+
+            /* transform: rotate(30deg); */
+        }
+        .second img{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            opacity: 1;
+            transition: opacity 1s;
+
+        }
+        .second img:hover{
+            opacity: 0.5;
+        }
+        .second h3{
+            border: 5px solid rgb(228, 28, 28);
+            padding: 10px 0 10px 20px;
+            width: 150px;
+            background-color: white;
+            color: rgb(228, 28, 28);
+            display: none;
+            position: absolute;
+            left: 60px;
+            top: 100px;
+            transition: transform 0.5s;
+          }
+          .second:hover>h3{
+            display: block;
+            transform: scaleX(1.5);
+          }
+        .third{
+            height: 300px;
+            width: 300px;
+            background: orange;
+            float: left;
+            margin: 100px auto auto 200px;
+            transition: transform 1.5s;
+        }
+        .third:hover{
+            transform: rotate(360deg);
+
+        }
+        .third h3,p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <img src="product.jpg">
+    </div>
+    <div class="second">
+        <img src="goodmorning.jpg" >
+        <h3>Good Morning!</h3>
+    </div>
+    <div class="third">
+        <h3>Thank You</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, impedit repudiandae placeat nobis velit enim. Culpa, veritatis modi! Magnam eum vero error voluptas omnis quasi, repellendus magni ad totam sapiente.</p>
+    </div>
+</body>
+
+</html>
