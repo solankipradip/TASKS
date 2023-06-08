@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Name</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        body{
+            height: 100vh;
+        }
+        .container{
+            height: 600px;
+            width: 100%;
+            background:salmon;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            position: relative;
+            top: -60px;
+        }
+        .letter{
+            height: 75px;
+            font-size: 60px;
+            color: darkblue;
+            font-weight: bolder;
+            font-family: sans-serif;
+            animation-name: drop;
+            /* border-bottom: 1px solid #000; */
+            animation-duration: 2s ;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            transition: 2s ease;
+
+        }
+        .one{
+            animation-delay: 2s;
+        }
+        .two{
+            animation-delay: 3s;
+        }
+        .three{
+            animation-delay: 4s;
+        }
+        .four{
+            animation-delay: 5s;
+        }
+        .five{
+            animation-delay: 6s;
+        }
+        .six{
+            animation-delay: 7s;
+        }
+        
+        @keyframes drop {
+            0%{transform: translateY(-60px); transition: linear;color: red;}
+            50%{transform: translateY(500px);
+                transition: linear;
+            }
+            75%{transform: translateY(400px);
+                transition: linear; 
+            }
+            100%{transform: translateY(500px); transition: linear;
+                border-bottom: 5px solid darkblue;
+
+            }
+
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="letter one">P</div>
+        <div class="letter two">R</div>
+        <div class="letter three">A</div>
+        <div class="letter four">D</div>
+        <div class="letter five">I</div>
+        <div class="letter six">P</div>
+    </div>
+</body>
+</html>
