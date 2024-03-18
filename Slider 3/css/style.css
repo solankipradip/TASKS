@@ -1,0 +1,49 @@
+@font-face{
+  font-family: cera-GR;
+  src: url('/font/cera-gr.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.item {
+  height: 90vh;
+  background: green;
+
+}
+
+.bottom {
+  height: 10vh;
+  width: 100%;
+  background: #00000045;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item-2{
+  background: #000;
+}
+.item-3{
+  background: #26c4e0;
+}
+.item-4{
+  background: #264be0;
+}
+.item-2 .slide-2{
+  height: 90%;
+  background: #c64545;
+}
+.item-2 .slide-bottom{
+  height: 10%;
+  background-color: gold;
+}
